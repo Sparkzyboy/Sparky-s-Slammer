@@ -45,5 +45,5 @@ if slam == 0:
 for i in range(slam):
     s.sendto(packet,(ipp,port))
     sent += 1
-    print(Fore.RED + "Bombs away - port", port," - ip", ipp , " - sending",sent,)
-    print(Fore.MAGENTA + "Bombs away - port", port," - ip", ipp , " - sending",sent,)
+    print("Bombs away - port", port," - ip", ipp , " - sending",sent,)
+
